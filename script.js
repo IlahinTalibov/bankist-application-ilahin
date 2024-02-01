@@ -139,7 +139,8 @@ const calcDisplayBalance = function (acc) {
   acc.balance = acc.movements.reduce((acc, mov) => acc + mov, 0);
   labelBalance.textContent = formatCur(acc.balance, acc.locale, acc.currency);
 };
-console.log(calcDisplayBalance)
+console.log('one');
+console.log('Ilahin');
 
 const calcDisplaySummary = function (acc) {
   const incomes = acc.movements
